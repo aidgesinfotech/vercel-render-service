@@ -1,0 +1,19 @@
+{
+  "name": "vercel-service",
+  "version": "1.0.0",
+  "description": "Serverless pulse endpoint that pings Render keepalive and Telegram-CRM roles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch . index.js"
+  },
+  "keywords": ["vercel","keepalive","pulse"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
