@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000; // static port for local/dev use; Render overrides in production
 // STATIC CONFIG: Update these URLs as needed; no env vars used
-const VERCEL_PULSE_URL = 'https://your-vercel-app.vercel.app/api/pulse';
+const VERCEL_PULSE_URL = 'https://vercel-render-service.vercel.app/api/pulse';
 const INTERVAL_MS = 25000;
 
 let timer = null;
