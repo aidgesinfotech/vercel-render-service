@@ -2,7 +2,7 @@
 // Static config only; no environment variables
 
 // UPDATE these constants with your real URLs
-const RENDER_KEEPALIVE_URL = 'https://your-render-app.onrender.com/keepalive';
+const RENDER_KEEPALIVE_URL = 'https://vercel-render-service.onrender.com/keepalive';
 const TELEGRAM_CRM_ROLES_URL = 'https://telegram-crm.onrender.com/api/siteconfig/getSiteconfig';
 const TELEGRAM_CRM_TOKEN = '';
 
